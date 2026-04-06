@@ -1,11 +1,11 @@
 variable "location"{
     description ="Azure region"
-    type="string"
+    type= string
     default="eastus"
 }
 
-variable "account tier"{
+variable "accounttier"{
     description = "account tier"    
-    type="string"
+    type= string
     default="Standard"
 }

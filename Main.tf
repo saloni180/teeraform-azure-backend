@@ -39,7 +39,7 @@ provider "azurerm" {
     name                     = "sa-terraform"
     location                 = var.location
     resource_group_name      = azurerm_resource_group.rg.name
-    account_tier             = "Standard"
+    account_tier             = "var.accounttier"
     account_replication_type = "LRS"
   }
 
